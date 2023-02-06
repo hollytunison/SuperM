@@ -2,11 +2,12 @@ import React from "react";
 import { ReactDOM } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar.js";
-import Home from "./Home.js";
-import About from "./About.js";
-import Products from "./Products.js";
-import Cart from "./Cart.js";
+import Home from "./Home.jsx";
+import Navbar from "./Navbar.jsx";
+import About from "./About.jsx";
+import Products from "./Products.jsx";
+import Cart from "./Cart.jsx";
+
 
 function App() {
   return (
